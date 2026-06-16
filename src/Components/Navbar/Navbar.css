@@ -1,0 +1,68 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    padding: 20px 0;
+
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-logo p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    list-style: none;
+}
+
+.nav-login-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-login-cart img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-login-cart button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nav-login-cart button:hover {
+    background-color: #555;
+}
+
+.nav-login-cart .cart-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    margin-left: -20px;
+    font-size: 12px;
+    color: #fff;
+    background-color: red;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
